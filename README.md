@@ -20,4 +20,4 @@ Pada halaman menu di web ini menampilkan beberapa hidangan yang disediakan pada 
 
 Pada Halaman Owner di web ini menampilkan owner owner restoran tasty bites
 
-![image](https://user-images.githubusercontent.com/116635154/227724523-b16e5e7e-341d-41c4-8a99-1a52b3a45e62.png)
+![image](https://user-images.githubusercontent.com/116635154/227724664-50dc526e-81ab-43cf-b2d7-912495234a41.png)
