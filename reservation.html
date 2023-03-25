@@ -35,41 +35,29 @@
         <form>
             <strong>Nama</strong>
             <br>
-            <input type="text" placeholder="Masukkan Nama"></p>
+            <input type="text" id="nama" placeholder="Masukkan Nama" required></p>
             <strong>Email</strong>
             <br>
-            <input type="email" placeholder="Masukkan Email"></p>
+            <input type="email" id="email" placeholder="Masukkan Email" required></p>
             <strong>Alasan Ingin Reservasi</strong>
-            <p><textarea
+            <p><textarea id="alamat"
                 rows="4"
                 cols="50"
-                placeholder="Berikan Alasan anda...">
+                placeholder="Berikan Alasan anda..." required>
             </textarea></p>
             <div>
               <strong>Bersedia untuk membayar cash atau debit</strong>
                 <br>
-                <input type="radio" name="jk"> Bersedia
-                <input type="radio" name="jk"> Tidak Bersedia
+                <input type="radio" name="radio" value="Bersedia"> Bersedia
+                <input type="radio" name="radio" value="Tidak Bersedia"> Tidak Bersedia
             </div>
             <br>
-            <strong>Reservasi Kursi</strong>
-            <p><select>
-                <option value="2">2 kursi</option>
-                <option value="45">4-5 Kursi</option>
-                <option value="10">10-15 Kursi</option>
-                <option value="20">20-30 Kursi</option>
-            </select></p>
             <strong>Paket Menu :</strong>
-            <input type="checkbox" id="Ulang Tahun">
-            <label for="Ulang Tahun">Ulang Tahun</label>
-            <input type="checkbox" id="Keluarga">
-            <label for="Keluarga">Keluarga</label>
-            <input type="checkbox" id="Private">
-            <label for="Private">Private</label><br>
-            <strong>Upload Foto Diri</strong>
+            <input type="checkbox" id="menu" name="checkbox" value="Ulang Tahun">Ulang Tahun <br>
+            <input type="checkbox" id="menu" name="checkbox" value="Keluarga">Keluarga <br>
+            <input type="checkbox" id="menu" name="checkbox" value="Private">Private <br>
             <br>
-            <input type="file"><br><br>
-            <input type="Submit" value="Submit">
+            <a class="btn" onclick="simpan()" href="reserform.html">Submit</a>
         </form>
     </div>
   </div>
@@ -114,7 +102,7 @@
       </div>
       </div>
     </footer>
-
+    <script src="reservation.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
